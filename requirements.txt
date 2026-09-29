@@ -1,0 +1,6 @@
+numpy>=1.26
+numba>=0.60
+matplotlib>=3.8
+jupyterlab>=4.2
+ipykernel>=6.29
+pytest>=8.0
