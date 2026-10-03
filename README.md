@@ -30,6 +30,10 @@ Open `examples/run_multiscale_slide_example.ipynb`; change `N` to any power of
 two at least 32 and run all cells. See `RUN_MULTISCALE_EXAMPLE.md` for Windows
 commands and the file to send back.
 
+## Sampling-rate comparison with classical DTW
+
+Open `examples/sampling_rate_comparison.ipynb` for a short designed stress test in which the underlying continuous curves and true warp are fixed while the sampling densities are swapped. The notebook compares the duration-aware Hellinger ETW recurrence with classical index-based DTW using the same RBF local geometry. See `RUN_SAMPLING_RATE_COMPARISON.md`.
+
 ## Run the tests
 
 ```bash
